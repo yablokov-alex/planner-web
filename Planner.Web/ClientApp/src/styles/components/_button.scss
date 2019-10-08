@@ -1,0 +1,48 @@
+button,
+.btn {
+	text-align: center;
+	font-weight: 700;
+	font-family: $mainFont;
+	font-size: $mainFontSize;
+	line-height: $mainFontHeight;
+	padding: 9px 10px 12px;
+	background-color: $main;
+	border: 1px solid $main;
+	color: #fff;
+	border-radius: 3px; 
+	position: relative;
+	transition: all .3s;
+	width: 100%;
+	display: block;
+	cursor: pointer;
+	outline: none;
+	@include b(mobile) {
+		font-size: 15px;
+	}
+
+	&:hover,
+	&.active {
+		color: #fff;
+		background-color: #0288d1;
+	}
+
+	&--grey {
+		background-color: #f0f0f0;
+		border: 1px solid #f0f0f0;
+		color: $default;
+
+		&:hover {
+			background-color: #e0e0e0;
+			border-color: #e0e0e0;
+			color: $default;
+		}
+	}
+
+	&.disabled,
+	&[disabled="disabled"], 
+	&[disabled] {
+		background: #ccc;
+		color: #aaa;
+		cursor: not-allowed;
+	}
+}

@@ -1,0 +1,30 @@
+@import "../../../../styles/mixins&includes";
+@import "../../../../styles/variables";
+
+.taskitem { 
+    &__row {
+		display: flex;
+		align-items: center;
+		padding-bottom: 10px;
+	}
+
+	&__number {
+		width: 20px;
+		height: 30px;
+		font-size: 14px;
+		background-color: #f0f0f0;
+		color: #757575;
+		border-radius: 3px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+    }
+    
+    &__check {
+		width: calc(100% - 20px);
+		padding-left: 15px;
+	}
+}
+
+
+

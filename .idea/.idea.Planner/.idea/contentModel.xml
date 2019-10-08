@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.2/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2019.2/system/resharper-host/local/Transient/ReSharperHost/v192/SolutionCaches/_Planner.-254047139.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="Planner.Api" t="IncludeRecursive">
+        <e p=".dockerignore" t="Include" />
+        <e p="Dockerfile" t="Include" />
+        <e p="Planner.Api.csproj" t="IncludeRecursive" />
+        <e p="Planner.Api.rest" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Planner.Api.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="src" t="Include">
+          <e p="Controllers" t="Include">
+            <e p="HomeController.cs" t="Include" />
+            <e p="TasksController.cs" t="Include" />
+          </e>
+          <e p="Program.cs" t="Include" />
+          <e p="Startup.cs" t="Include" />
+          <e p="appsettings.Development.json" t="Include" />
+          <e p="appsettings.json" t="Include" />
+        </e>
+      </e>
+      <e p="Planner.Common" t="IncludeRecursive">
+        <e p="Planner.Common.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Planner.Common.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="src" t="Include">
+          <e p="Mongo" t="Include">
+            <e p="IMongorepository.cs" t="Include" />
+            <e p="MongoRepository.cs" t="Include" />
+            <e p="Pagination.cs" t="Include" />
+          </e>
+          <e p="Types" t="Include">
+            <e p="IIdentifiable.cs" t="Include" />
+            <e p="IPagedQuery.cs" t="Include" />
+            <e p="IQuery.cs" t="Include" />
+            <e p="PagedQueryBase.cs" t="Include" />
+            <e p="PagedResult.cs" t="Include" />
+            <e p="PagedResultBase.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Planner.Services.Tasks" t="IncludeRecursive">
+        <e p="Planner.Services.Tasks.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Planner.Services.Tasks.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="src" t="Include">
+          <e p="Domain" t="Include">
+            <e p="TaskItem.cs" t="Include" />
+          </e>
+          <e p="Repositories" t="Include">
+            <e p="ITaskRepository.cs" t="Include" />
+            <e p="TaskRepository.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Planner.Web" t="IncludeRecursive">
+        <e p="ClientApp" t="Include">
+          <e p=".gitignore" t="Include" />
+          <e p="build" t="Include">
+            <e p="asset-manifest.json" t="Include" />
+            <e p="favicon.png" t="Include" />
+            <e p="index.html" t="Include" />
+            <e p="manifest.json" t="Include" />
+            <e p="precache-manifest.974cc29d1461921e46cad43b8d624031.js" t="Include" />
+            <e p="service-worker.js" t="Include" />
+            <e p="static" t="Include">
+              <e p="css" t="Include">
+                <e p="main.fc3e8467.chunk.css" t="Include" />
+                <e p="main.fc3e8467.chunk.css.map" t="Include" />
+              </e>
+              <e p="js" t="Include">
+                <e p="2.b41502e9.chunk.js" t="Include" />
+                <e p="2.b41502e9.chunk.js.map" t="Include" />
+                <e p="main.42ce8847.chunk.js" t="Include" />
+                <e p="main.42ce8847.chunk.js.map" t="Include" />
+                <e p="runtime~main.a8a9905a.js" t="Include" />
+                <e p="runtime~main.a8a9905a.js.map" t="Include" />
+              </e>
+              <e p="media" t="Include">
+                <e p="Lato-Bold.249def54.eot" t="Include" />
+                <e p="Lato-Bold.b0d886da.woff" t="Include" />
+                <e p="Lato-Bold.d76ff381.ttf" t="Include" />
+                <e p="Lato-Regular.32640cf9.woff" t="Include" />
+                <e p="Lato-Regular.77fdd370.ttf" t="Include" />
+                <e p="Lato-Regular.eae698da.eot" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="node_modules/@babel/parser" t="IncludeRecursive" />
+          <e p="node_modules/@babel/types" t="IncludeRecursive" />
+          <e p="node_modules/@jest/console" t="IncludeRecursive" />
+          <e p="node_modules/@jest/fake-timers" t="IncludeRecursive" />
+          <e p="node_modules/@jest/source-map" t="IncludeRecursive" />
+          <e p="node_modules/@jest/test-result" t="IncludeRecursive" />
+          <e p="node_modules/@jest/types" t="IncludeRecursive" />
+          <e p="node_modules/@types" t="IncludeRecursive">
+            <e p="babel__generator" t="IncludeRecursive" />
+            <e p="babel__template" t="IncludeRecursive" />
+            <e p="babel__traverse" t="IncludeRecursive" />
+            <e p="istanbul-lib-coverage" t="IncludeRecursive" />
+            <e p="istanbul-lib-report" t="IncludeRecursive" />
+            <e p="yargs-parser" t="IncludeRecursive" />
+          </e>
+          <e p="node_modules/axios" t="IncludeRecursive" />
+          <e p="node_modules/babel-jest" t="IncludeRecursive" />
+          <e p="node_modules/dotenv-expand" t="IncludeRecursive" />
+          <e p="node_modules/jest" t="IncludeRecursive" />
+          <e p="node_modules/jest-haste-map" t="IncludeRecursive" />
+          <e p="node_modules/jest-message-util" t="IncludeRecursive" />
+          <e p="node_modules/jest-mock" t="IncludeRecursive" />
+          <e p="node_modules/jest-resolve" t="IncludeRecursive" />
+          <e p="node_modules/jest-serializer" t="IncludeRecursive" />
+          <e p="node_modules/jest-util" t="IncludeRecursive" />
+          <e p="node_modules/jest-worker" t="IncludeRecursive" />
+          <e p="node_modules/node-sass" t="IncludeRecursive" />
+          <e p="node_modules/react" t="IncludeRecursive" />
+          <e p="node_modules/react-custom-scrollbars" t="IncludeRecursive" />
+          <e p="node_modules/react-dom" t="IncludeRecursive" />
+          <e p="node_modules/react-router-dom" t="IncludeRecursive" />
+          <e p="node_modules/react-scripts" t="IncludeRecursive" />
+          <e p="node_modules/realpath-native" t="IncludeRecursive" />
+          <e p="node_modules/redux-thunk" t="IncludeRecursive" />
+          <e p="node_modules/worker-farm" t="IncludeRecursive" />
+          <e p="package-lock.json" t="Include" />
+          <e p="package.json" t="Include" />
+          <e p="public" t="Include">
+            <e p="favicon.png" t="Include" />
+            <e p="index.html" t="Include" />
+            <e p="manifest.json" t="Include" />
+          </e>
+          <e p="src" t="Include">
+            <e p="App.js" t="Include" />
+            <e p="App.test.js" t="Include" />
+            <e p="asserts" t="Include">
+              <e p="fonts" t="Include">
+                <e p="lato" t="Include">
+                  <e p="lato-bold" t="Include">
+                    <e p="Lato-Bold.eot" t="Include" />
+                    <e p="Lato-Bold.ttf" t="Include" />
+                    <e p="Lato-Bold.woff" t="Include" />
+                  </e>
+                  <e p="lato-regular" t="Include">
+                    <e p="Lato-Regular.eot" t="Include" />
+                    <e p="Lato-Regular.ttf" t="Include" />
+                    <e p="Lato-Regular.woff" t="Include" />
+                  </e>
+                </e>
+              </e>
+              <e p="pic" t="Include">
+                <e p="bg-add.jpg" t="Include" />
+                <e p="bg-target.jpg" t="Include" />
+                <e p="favicon.png" t="Include" />
+                <e p="profile-photo.jpg" t="Include" />
+              </e>
+            </e>
+            <e p="axios-instance.js" t="Include" />
+            <e p="components" t="Include">
+              <e p="Block" t="Include">
+                <e p="Block.js" t="Include" />
+                <e p="Block.scss" t="Include" />
+              </e>
+              <e p="Layout" t="Include">
+                <e p="Layout.js" t="Include" />
+                <e p="Layout.scss" t="Include" />
+              </e>
+              <e p="Navigation" t="Include">
+                <e p="Header" t="Include">
+                  <e p="Header.js" t="Include" />
+                  <e p="Header.scss" t="Include" />
+                </e>
+                <e p="Sidebar" t="Include">
+                  <e p="NavigationItem" t="Include">
+                    <e p="NavigationItem.js" t="Include" />
+                    <e p="NavigationItem.scss" t="Include" />
+                  </e>
+                  <e p="Sidebar.js" t="Include" />
+                  <e p="Sidebar.scss" t="Include" />
+                </e>
+              </e>
+              <e p="SvgContainer" t="Include">
+                <e p="SvgContainer.js" t="Include" />
+                <e p="SvgContainer.scss" t="Include" />
+              </e>
+              <e p="UI" t="Include">
+                <e p="Button" t="Include">
+                  <e p="Button.js" t="Include" />
+                  <e p="Button.scss" t="Include" />
+                </e>
+                <e p="Checkbox" t="Include">
+                  <e p="Checkbox.js" t="Include" />
+                  <e p="Checkbox.scss" t="Include" />
+                </e>
+                <e p="Rating" t="Include">
+                  <e p="Rating.js" t="Include" />
+                  <e p="Rating.scss" t="Include" />
+                  <e p="RatingItem" t="Include">
+                    <e p="RatingItem.js" t="Include" />
+                    <e p="RatingItem.scss" t="Include" />
+                  </e>
+                </e>
+                <e p="Spinner" t="Include">
+                  <e p="Spinner.js" t="Include" />
+                  <e p="Spinner.scss" t="Include" />
+                </e>
+                <e p="TaskItems" t="Include">
+                  <e p="TaskItem" t="Include">
+                    <e p="TaskItem.js" t="Include" />
+                    <e p="TaskItem.scss" t="Include" />
+                  </e>
+                </e>
+                <e p="TextBox" t="Include">
+                  <e p="TextBox.js" t="Include" />
+                  <e p="TextBox.scss" t="Include" />
+                </e>
+              </e>
+            </e>
+            <e p="containers" t="Include">
+              <e p="DayPage" t="Include">
+                <e p="DayPage.js" t="Include" />
+              </e>
+              <e p="DelegatedPage" t="Include">
+                <e p="Delegated.js" t="Include" />
+              </e>
+              <e p="GoalPage" t="Include">
+                <e p="GoalPage.js" t="Include" />
+              </e>
+              <e p="InboxPage" t="Include">
+                <e p="InboxPage.js" t="Include" />
+              </e>
+              <e p="MonthPage" t="Include">
+                <e p="MonthPage.js" t="Include" />
+                <e p="MonthPage.scss" t="Include" />
+              </e>
+              <e p="WeekPage" t="Include">
+                <e p="WeekPage.js" t="Include" />
+              </e>
+            </e>
+            <e p="index.js" t="Include" />
+            <e p="index.scss" t="Include" />
+            <e p="serviceWorker.js" t="Include" />
+            <e p="shared" t="Include">
+              <e p="taskType.js" t="Include" />
+              <e p="tasks.js" t="Include" />
+              <e p="utility.js" t="Include" />
+            </e>
+            <e p="store" t="Include">
+              <e p="actions" t="Include">
+                <e p="actionTypes.js" t="Include" />
+                <e p="index.js" t="Include" />
+                <e p="task.js" t="Include" />
+              </e>
+              <e p="reducers" t="Include">
+                <e p="task.js" t="Include" />
+              </e>
+            </e>
+            <e p="styles" t="Include">
+              <e p="_fonts.scss" t="Include" />
+              <e p="_mixins&amp;includes.scss" t="Include" />
+              <e p="_normalize&amp;reset.scss" t="Include" />
+              <e p="_typography.scss" t="Include" />
+              <e p="_variables.scss" t="Include" />
+              <e p="components" t="Include">
+                <e p="_button.scss" t="Include" />
+                <e p="_datepicker.scss" t="Include" />
+                <e p="_icons.scss" t="Include" />
+                <e p="_input.scss" t="Include" />
+                <e p="_radio.scss" t="Include" />
+                <e p="_select.scss" t="Include" />
+                <e p="_spinner.scss" t="Include" />
+              </e>
+              <e p="main.scss" t="Include" />
+              <e p="plugins" t="Include">
+                <e p="jquery-ui.scss" t="Include" />
+                <e p="jquery.mCustomScrollbar.scss" t="Include" />
+                <e p="jquery.reject.scss" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+        <e p="Dockerfile" t="Include" />
+        <e p="Pages" t="Include">
+          <e p="Error.cshtml" t="Include" />
+          <e p="Error.cshtml.cs" t="Include" />
+          <e p="_ViewImports.cshtml" t="Include" />
+        </e>
+        <e p="Planner.Web.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="launchSettings.json" t="Include" />
+        </e>
+        <e p="Startup.cs" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="Planner.Web.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Planner.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

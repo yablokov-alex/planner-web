@@ -1,0 +1,157 @@
+//----------------------------------------------------//
+// TYPOGRAPHY                                         //
+//----------------------------------------------------//
+body {
+	background-color: #fff;
+  color: $mainFontColor;
+  font-family: $mainFont;
+  font-size: $mainFontSize;
+  font-weight: $mainFontWeight;
+  line-height: $mainFontHeight;
+  @include b(mobile) {
+  	font-size: 15px;
+  }
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: $mainFont;
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+h1 {
+	font-size: 42px;
+	line-height: 48px;
+	font-weight: 700;
+}
+h2 {
+	font-size: 30px;
+	line-height: 38px;
+	font-weight: 200;
+}
+h3 {
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 600;
+}
+h4 {
+	font-size: 18px;
+	line-height: 25px;
+	font-weight: 300;
+}
+h5 {
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: 300;
+}
+h6 {
+	font-size: 12px;
+	line-height: 1.4;
+}
+
+p {
+	padding: 0;  
+	margin: 0;
+}
+
+hr {
+	overflow: hidden;
+	height: 1px;
+	background: #e9e9e9;
+	border: 0;
+	margin: 32px 0;
+}
+
+q,
+blockquote {
+	text-align: center;
+	display: block;
+	font-style: italic;
+}
+
+strong,
+b {
+	font-weight: 700;
+}
+
+a {	
+	color: $mainFontColor;
+	transition: all .3s;
+	text-decoration: none;
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+[class*="icon-"] {
+	display: inline-block;
+	vertical-align: top;
+}
+
+%ul {
+	li {
+		position: relative;
+		padding-left: 10px;
+		&:before {
+			position: absolute;
+			content: '';
+			left: 0;
+			top: 10px;
+			width: 4px;
+			height: 4px;
+			background: pink;
+			border-radius: 50%;
+		}
+	}
+}
+
+
+ul,
+ol {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.static-content {
+	
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 17px;
+	font-family: $mainFont;
+	font-weight: 400;
+
+	td,
+	th {
+		padding: 10px 10px;
+		text-align: left;
+		border: 1px solid $grey;
+	}
+}
+
+.default-list {
+	@extend %ul;
+}
+
+ol {
+	list-style-type: decimal;
+	list-style-position: inside;
+	counter-reset: item;
+	li {
+		display: block;
+		position: relative;
+		&:before { 
+			content: counters(item, ".") ". ";
+			counter-increment: item;
+			display: inline;
+			vertical-align: top;
+			font-weight: 700;
+		}
+	}
+}
+
+.upper {
+	text-transform: uppercase;
+}

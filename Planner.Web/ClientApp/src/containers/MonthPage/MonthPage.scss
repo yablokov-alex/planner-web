@@ -1,0 +1,13 @@
+.completion {
+	&__box {
+		padding-bottom: 23px;
+
+		&--notes {
+			padding: 3px 0 32px;
+
+			.completion__title {
+				padding-bottom: 7px;
+			}
+		}
+	}	
+}

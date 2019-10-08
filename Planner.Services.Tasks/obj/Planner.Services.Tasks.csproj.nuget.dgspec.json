@@ -1,0 +1,131 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/appleman/Downloads/Planner/Planner.Services.Tasks/Planner.Services.Tasks.csproj": {}
+  },
+  "projects": {
+    "/home/appleman/Downloads/Planner/Planner.Common/Planner.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/appleman/Downloads/Planner/Planner.Common/Planner.Common.csproj",
+        "projectName": "Planner.Common",
+        "projectPath": "/home/appleman/Downloads/Planner/Planner.Common/Planner.Common.csproj",
+        "packagesPath": "/home/appleman/.nuget/packages/",
+        "outputPath": "/home/appleman/Downloads/Planner/Planner.Common/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/appleman/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.9.0-beta2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "/home/appleman/Downloads/Planner/Planner.Services.Tasks/Planner.Services.Tasks.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/appleman/Downloads/Planner/Planner.Services.Tasks/Planner.Services.Tasks.csproj",
+        "projectName": "Planner.Services.Tasks",
+        "projectPath": "/home/appleman/Downloads/Planner/Planner.Services.Tasks/Planner.Services.Tasks.csproj",
+        "packagesPath": "/home/appleman/.nuget/packages/",
+        "outputPath": "/home/appleman/Downloads/Planner/Planner.Services.Tasks/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/appleman/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {
+              "/home/appleman/Downloads/Planner/Planner.Common/Planner.Common.csproj": {
+                "projectPath": "/home/appleman/Downloads/Planner/Planner.Common/Planner.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

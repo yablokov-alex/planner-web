@@ -1,0 +1,164 @@
+.ui-datepicker {
+	width: 300px;
+	font-family: $mainFont;
+	padding: 3px 3px 18px;
+
+	&-header {
+		background-color: transparent;
+		border: none;
+	}
+
+	&-prev {
+		width: 20px;
+		height: 20px;
+		background-color: transparent;
+		left: 5px;
+		cursor: pointer;
+
+		&:hover {
+			background-color: transparent;
+
+			&:before {
+				border-color: $main;
+			}
+		}
+
+		&:before {
+			position: absolute;
+			content: '';
+			width: 9px;
+			height: 9px;
+			border-bottom: 2px solid #424242;
+			border-left: 2px solid #424242;
+			transform: rotate(45deg);
+			top: 11px;
+			left: 12px;
+			transition: all .3s;
+		}
+	}
+
+	&-next {
+		width: 20px;
+		height: 20px;
+		background-color: transparent;
+		right: 5px;
+		cursor: pointer;
+
+		&:hover {
+			background-color: transparent;
+
+			&:before {
+				border-color: $main;
+			}
+		}
+
+		&:before {
+			position: absolute;
+			content: '';
+			width: 9px;
+			height: 9px;
+			border-bottom: 2px solid #424242;
+			border-right: 2px solid #424242;
+			transform: rotate(-45deg);
+			top: 11px;
+			right: 12px;
+			transition: all .3s;
+		}
+	}
+
+	table {
+		border-collapse: collapse;
+		font-size: 17px;
+		width: 280px;
+		margin: 0 auto;
+	}
+
+	th {
+		border-bottom: 1px solid #bdbdbd;
+		color: #9e9e9e;
+		padding: 9px 2px 11px;
+		font-weight: 400;
+	}
+
+	tr {
+
+		&:first-child {
+
+			td {
+
+				span {
+					margin-top: 4px;
+				}
+
+				a {
+					margin-top: 4px;
+				}
+			}
+		}
+	}
+
+	td {
+
+		span {
+			text-align: center;
+			color: #bdbdbd;
+		}
+
+		a {
+			text-align: center;
+			padding: 2px 2px 4px;
+			border-radius: 3px;
+			margin: 0 6.5px;
+
+			&:hover {
+				background-color: $main;
+				color: #fff;
+			}
+		}
+	}
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default {
+	border: none;
+	color: $mainFontColor;
+	font-size: 16px;
+	background: transparent;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active {
+	background-color: $main;
+	color: #fff;
+}
+
+.ui-datepicker .ui-datepicker-next {
+	right: 6px;
+	top: 50%;
+	transform: translateY(-50%);
+	border: none;
+
+	&-hover {
+		right: 6px;
+		border: none;
+	}
+}
+
+.ui-datepicker .ui-datepicker-prev {
+	left: 6px;
+	top: 50%;
+	transform: translateY(-50%);
+	border: none;
+
+	&-hover {
+		left: 6px;
+		border: none;
+	}
+}
+
+.ui-datepicker .ui-datepicker-title {
+	font-size: 17px;
+}
+
+.ui-datepicker .ui-datepicker-header {
+	padding: 0;
+	margin-top: 10px;
+}

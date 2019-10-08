@@ -1,0 +1,39 @@
+@import "../../styles/mixins&includes";
+
+.wrapper {
+	overflow: hidden;
+}
+
+.main {
+	height: 100vh;
+	padding: 60px 0 0 292px;
+	transition: all .3s;
+	overflow: visible;
+	@include b(tablet) {
+	 	padding-left: 250px;
+	 }
+	@include b(mobile) {
+		padding-left: 15px;
+	}
+}
+
+.content {
+
+	&.active {
+        		
+		.main {
+			padding-left: 98px;
+			@include b(tablet) {
+				padding-left: 88px;
+			}
+			@include b(mobile) {
+				padding-left: 15px;
+				transform: translateX(230px);
+			}
+		}
+	}
+}
+
+.container {
+	padding: 20px;
+}
